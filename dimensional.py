@@ -17,7 +17,7 @@ def mean(num_array):
         for column in range(num_columns):
             average += num_array[row][column]
 
-    average = round(average / (num_rows * num_columns), 2)
+    average = round(average / (num_rows * num_columns))
 
     return average
 
